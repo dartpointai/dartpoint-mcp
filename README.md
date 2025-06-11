@@ -15,6 +15,9 @@ MCP Server for public disclosure information of Korean companies, powered by the
 - Supports MCP protocol for use with various LLM services like Claude and Cursor.
 - Extensible through linkage with new AI models or analysis tools via a standardized protocol.
 
+## Prompts
+- 
+
 ## How to Run
 
 It can be used with simple configuration in MCP clients (Claude, Cursor-ai, etc.).
