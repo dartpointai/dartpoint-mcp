@@ -15,7 +15,7 @@ MCP Server for public disclosure information of Korean companies, powered by the
 - Supports MCP protocol for use with various LLM services like Claude and Cursor.
 - Extensible through linkage with new AI models or analysis tools via a standardized protocol.
 
-# Prompts
+## Prompts
 *Here are 4 prompts you could ask the DartPoint AI MCP server, leveraging its corporate information capabilities:*
 - "Analyze the recent financial performance of Samsung Electronics for the past year."
 (This would likely use get_financial_summary_by_date or get_financial_info_by_date and potentially get_dividends.)
@@ -25,6 +25,10 @@ MCP Server for public disclosure information of Korean companies, powered by the
 (This would directly use get_news_sentiments.)
 - "What are the key products and services offered by SK Hynix, and what is a brief overview of their business?"
 (This would use get_corp_products_info and get_corp_bsns_summary.)
+
+## How to get APIKEY from DartPoint AI
+
+The API key can be issued on your account page after registering at https://dartpoint.ai.
 
 ## How to Run
 
