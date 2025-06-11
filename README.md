@@ -48,7 +48,7 @@ Perform the setup using the DartPoint AI MCP Server address and your issued API 
       "command": "npx",
       "args": [
         "mcp-remote",
-        "http://localhost:8000/mcp-sse/mcp",
+        "https://dartpoint.ai/mcp-sse/mcp",
         "--header",
         "DARTPOINT_API_KEY:<API Key from https://dartpoint.ai>"
       ]
