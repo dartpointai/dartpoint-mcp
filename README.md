@@ -6,7 +6,6 @@ README in Korean: [README-KR.md](https://github.com/dartpointai/dartpoint-mcp/bl
 *Provision of refined corporate information*
 - Provides information based on electronic disclosures from the Financial Supervisory Service (FSS)
 - Provides key corporate information including company overview, main products, competitor/subsidiary information, sales/profitability, and financial statements.
-- Refer to the MCP server protocol's tool list for detailed information provided.
 
 *Diverse utilization of corporate information*
 - Enables corporate comparison and corporate report generation through LLM linkage.
