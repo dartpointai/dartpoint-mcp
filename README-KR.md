@@ -39,7 +39,7 @@ DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하
 - DARTPOINT_API_KEY: API 키는 dartpoint.ai 서비스 가입 후 발급받을 수 있습니다.
 - stdio 모드 사용: [SuperGateway](https://github.com/supercorp-ai/supergateway)를 사용하여 설정하세요.
 
-### Claude 데스크톱 표준 (SSE)
+### Claude 데스크톱 (SSE)
 ```json
 {
   "mcpServers": {
@@ -54,3 +54,37 @@ DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하
     }
   }
 }
+
+### Claude 데스크톱 (stdio via supergateway)
+```json
+{
+  "dartpoint": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "supergateway",
+      "--sse",
+      "https://dartpoint.ai/mcp-sse/mcp",
+      "--header",
+      "DARTPOINT_API_KEY:<API Key from https://dartpoint.ai>"
+    ]
+  }
+}
+```
+
+### Cursor-AI (SSE)
+```json
+{
+  "mcpServers": {
+    "dartpoint": {
+      "url": "https://dartpoint.ai/mcp-sse/mcp",
+      "headers": {
+        "DARTPOINT_API_KEY": "<API Key from https://dartpoint.ai>"
+      }
+    }
+  }
+}
+```
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=dartpointai/dartpoint-mcp&type=Date)](https://www.star-history.com/#dartpointai/dartpoint-mcp&Date)
