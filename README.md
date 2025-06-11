@@ -44,7 +44,7 @@ Perform the setup using the DartPoint AI MCP Server address and your issued API 
 ```json
 {
   "mcpServers": {
-    "dartpoint-local": {
+    "dartpoint": {
       "command": "npx",
       "args": [
         "mcp-remote",
