@@ -40,7 +40,7 @@ Perform the setup using the DartPoint AI MCP Server address and your issued API 
 - DARTPOINT_API_KEY: APIKey can be issued after signing up for the dartpoint.ai service
 - Using stdio mode: Configure using [SuperGateway](https://github.com/supercorp-ai/supergateway)
 
-### Claude Desktop Standard (SSE)
+### Claude Desktop (SSE)
 ```json
 {
   "mcpServers": {
@@ -57,7 +57,7 @@ Perform the setup using the DartPoint AI MCP Server address and your issued API 
 }
 ```
 
-### Claude Desktop Standard (stdio via supergateway)
+### Claude Desktop (stdio via supergateway)
 ```json
 {
   "dartpoint": {
