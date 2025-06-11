@@ -54,6 +54,7 @@ DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하
     }
   }
 }
+```
 
 ### Claude 데스크톱 (stdio via supergateway)
 ```json
