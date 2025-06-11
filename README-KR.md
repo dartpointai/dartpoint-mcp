@@ -48,7 +48,7 @@ DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하
       "command": "npx",
       "args": [
         "mcp-remote",
-        "http://localhost:8000/mcp-sse/mcp",
+        "https://dartpoint.ai/mcp-sse/mcp",
         "--header",
         "DARTPOINT_API_KEY:<[https://dartpoint.ai](https://dartpoint.ai) 에서 발급받은 API 키>"
       ]
