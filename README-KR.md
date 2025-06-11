@@ -1,5 +1,6 @@
 # dartpoint-mcp
-dartpoint.ai API 기반의 한국 기업 공시 정보 제공 MCP 서버입니다. https://dartpoint.ai
+dartpoint.ai API 기반의 한국 기업 공시 정보 제공 MCP 서버입니다. https://dartpoint.ai  
+영문 설명: [README.md](https://github.com/dartpointai/dartpoint-mcp)
 
 ## 특징 및 주요 기능
 *정제된 기업 정보 제공*
