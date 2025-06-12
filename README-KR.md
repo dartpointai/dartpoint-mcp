@@ -59,16 +59,18 @@ DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하
 ### Claude 데스크톱 (stdio via supergateway)
 ```json
 {
-  "dartpoint": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "supergateway",
-      "--sse",
-      "https://dartpoint.ai/mcp-sse/mcp",
-      "--header",
-      "DARTPOINT_API_KEY:<API Key from https://dartpoint.ai>"
-    ]
+  "mcpServers": {
+    "dartpoint": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "https://dartpoint.ai/mcp-sse/mcp",
+        "--header",
+        "DARTPOINT_API_KEY:<API Key from https://dartpoint.ai>"
+      ]
+    }
   }
 }
 ```
