@@ -60,16 +60,18 @@ Perform the setup using the DartPoint AI MCP Server address and your issued API 
 ### Claude Desktop Standard (stdio via supergateway)
 ```json
 {
-  "dartpoint": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "supergateway",
-      "--sse",
-      "https://dartpoint.ai/mcp-sse/mcp",
-      "--header",
-      "DARTPOINT_API_KEY:<API Key from https://dartpoint.ai>"
-    ]
+  "mcpServers": {
+    "dartpoint": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "https://dartpoint.ai/mcp-sse/mcp",
+        "--header",
+        "DARTPOINT_API_KEY:<API Key from https://dartpoint.ai>"
+      ]
+    }
   }
 }
 ```
