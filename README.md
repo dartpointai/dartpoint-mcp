@@ -1,5 +1,6 @@
 # dartpoint-mcp
-MCP Server for public disclosure information of Korean companies, powered by the dartpoint.ai API. https://dartpoint.ai @ Powered by Synapsoft Corp.
+MCP Server for public disclosure information of Korean companies, powered by the dartpoint.ai API.  
+https://dartpoint.ai @ Powered by Synapsoft Corp.
 README in Korean: [README-KR.md](https://github.com/dartpointai/dartpoint-mcp/blob/master/README-KR.md)
 
 ## Features and Key Functions
