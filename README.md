@@ -90,6 +90,4 @@ Perform the setup using the DartPoint AI MCP Server address and your issued API 
 }
 ```
 
-## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=dartpointai/dartpoint-mcp&type=Date)](https://www.star-history.com/#dartpointai/dartpoint-mcp&Date)
