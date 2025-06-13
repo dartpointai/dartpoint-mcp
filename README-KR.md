@@ -89,5 +89,3 @@ DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하
 }
 ```
 
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=dartpointai/dartpoint-mcp&type=Date)](https://www.star-history.com/#dartpointai/dartpoint-mcp&Date)
