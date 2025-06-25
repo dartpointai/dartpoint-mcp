@@ -35,7 +35,7 @@ API 키는 https://dartpoint.ai 가입 후, 계정 페이지(마이페이지)에
 MCP 클라이언트(Claude, Cursor-ai 등)에서 간단한 설정으로 사용할 수 있습니다.
 DartPoint AI MCP 서버 주소와 발급받은 API 키를 사용하여 설정하세요.
 
-- MCP URL 경로: `https://dartpoint.ai/mcp-sse/mcp`
+- MCP URL 경로: `https://dartpoint.ai/mcp-sse/mcp` (Streamable HTTP Only)
 - DARTPOINT_API_KEY: API 키는 dartpoint.ai 서비스 가입 후 발급받을 수 있습니다.
 - stdio 모드 사용: [SuperGateway](https://github.com/supercorp-ai/supergateway)를 사용하여 설정하세요.
 
