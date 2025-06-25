@@ -36,7 +36,7 @@ The API key can be issued on your account page after registering at https://dart
 It can be used with simple configuration in MCP clients (Claude, Cursor-ai, etc.).
 Perform the setup using the DartPoint AI MCP Server address and your issued API Key.
 
-- MCP URL Path: `https://dartpoint.ai/mcp-sse/mcp`
+- MCP URL Path: `https://dartpoint.ai/mcp-sse/mcp` (Streamable HTTP Only)
 - DARTPOINT_API_KEY: APIKey can be issued after signing up for the dartpoint.ai service
 - Using stdio mode: Configure using [SuperGateway](https://github.com/supercorp-ai/supergateway)
 
