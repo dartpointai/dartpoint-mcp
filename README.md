@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dartpointai-dartpoint-mcp-badge.png)](https://mseep.ai/app/dartpointai-dartpoint-mcp)
+
 # dartpoint-mcp
 MCP Server for public disclosure information of Korean companies(DART, https://dart.fss.or.kr/), powered by the dartpoint.ai API.  
 https://dartpoint.ai @ Powered by Synapsoft Corp.
